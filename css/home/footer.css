@@ -1,0 +1,34 @@
+.container--footer {
+  display: grid;
+  gap: 30px;
+  position: relative;
+}
+
+.footer__list-items {
+  margin-top: 24px;
+}
+
+.footer__list-items li + li {
+  margin-top: 20px;
+}
+
+.social-media {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.social-media img {
+  min-width: max-content;
+}
+
+@media screen and (min-width: 700px) {
+  .container--footer {
+    display: grid;
+    grid-template-columns: 4fr 5fr 3fr;
+  }
+
+  .container--footer p {
+    grid-column: span 2;
+  }
+}

@@ -1,0 +1,11 @@
+@import url(./components/reset.css);
+@import url(./components/colors.css);
+@import url(./components/typography.css);
+@import url(./components/components.css);
+@import url(./components/backgrounds.css);
+
+@import url(./home/header.css);
+@import url(./home/parceiros.css);
+@import url(./home/footer.css);
+
+@import url(./components/decoration.css);

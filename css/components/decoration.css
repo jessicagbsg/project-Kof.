@@ -1,0 +1,143 @@
+.bg-green--fidelidade .content::before,
+.bg-green--intro .content::before,
+.bg-brown--confra .content::before,
+.container--footer::before {
+  content: "";
+  display: inline-block;
+  width: 60px;
+  height: 70px;
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+}
+
+.bg-green--fidelidade .content::before {
+  background: url("../../img/decoration/3\ green\ coffee\ bottom\ left\ mobile.svg");
+}
+
+.bg-green--intro .content::before {
+  height: 44px;
+  background: url("../../img/decoration/2\ green\ coffee\ bottom\ left\ mobile.svg");
+}
+
+.bg-brown--confra .content::before {
+  background: url("../../img/decoration/3\ brown\ coffee\ bottom\ left\ mobile.svg");
+}
+
+.container--footer::before {
+  width: 52px;
+  height: 54px;
+  background: url("../../img/decoration/2\ brown\ coffee\ bottom\ right\ mobile.svg");
+  bottom: 65px;
+  right: 0;
+  left: auto;
+}
+
+.bg-green--fidelidade .content::after,
+.bg-green--intro .content::after,
+.bg-brown--confra .content::after,
+.container--footer::after {
+  content: "";
+  display: inline-block;
+  width: 60px;
+  height: 44px;
+  position: absolute;
+  top: 40px;
+  right: 0;
+}
+
+.container--footer::after {
+  height: 70px;
+  background: url("../../img/decoration/3\ brown\ coffee\ top\ right\ mobile.svg");
+}
+
+.bg-green--fidelidade .content::after {
+  background: url("../../img/decoration/2\ green\ coffee\ top\ right\ mobile.svg");
+}
+
+.bg-green--intro .content::after {
+  height: 70px;
+  background: url("../../img/decoration/3\ green\ coffee\ top\ right\ mobile.svg");
+}
+
+.bg-brown--confra .content::after {
+  background: url("../../img/decoration/2\ brown\ coffee\ top\ right\ mobile.svg");
+}
+
+@media screen and (min-width: 700px) {
+  .container--footer::after,
+  .bg-green--intro .content::after {
+    display: none;
+  }
+
+  .bg-green--fidelidade .content::before,
+  .bg-green--fidelidade .content::after,
+  .container--footer::before {
+    width: 87px;
+    height: 79px;
+  }
+
+  .bg-green--intro .content::before,
+  .bg-brown--confra .content::before,
+  .bg-brown--confra .content::after {
+    width: 79px;
+    height: 87px;
+  }
+
+  .bg-green--intro .content::before {
+    background: url("../../img/decoration/green\ coffee\ bottom\ left.svg");
+    bottom: 80px;
+  }
+
+  .bg-green--fidelidade .content::after {
+    background: url("../../img/decoration/green\ coffee\ top\ left.svg");
+    top: 80px;
+    left: 0;
+  }
+
+  .bg-green--fidelidade .content::before {
+    background: url("../../img/decoration/green\ coffee\ bottom\ right.svg");
+    bottom: 80px;
+    right: 0;
+    left: auto;
+  }
+
+  .bg-brown--confra .content::before {
+    background: url("../../img/decoration/brown\ coffee\ bottom\ left\.svg");
+    bottom: 0;
+  }
+
+  .bg-brown--confra .content::after {
+    background: url("../../img/decoration/brown\ coffee\ top\ right\.svg");
+    top: 0;
+  }
+
+  .container--footer::before {
+    background: url("../../img/decoration/brown\ coffee\ bottom\ right.svg");
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+
+  .bg-green--intro .content::before {
+    bottom: 150px;
+  }
+
+  .bg-green--fidelidade .content::before {
+    bottom: 210px;
+  }
+
+  .bg-green--intro .content::after {
+    background: url("../../img/decoration/green\ coffee\ top\ right.svg");
+    width: 87px;
+    height: 79px;
+    display: inline-block;
+  }
+
+  .bg-green--intro .content::after,
+  .bg-green--fidelidade .content::after {
+    top: 150px;
+  }
+}

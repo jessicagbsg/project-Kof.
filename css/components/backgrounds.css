@@ -1,0 +1,32 @@
+.bg-green {
+  background-color: var(--color-3);
+}
+
+.bg-brown {
+  background-color: var(--color-7);
+}
+
+.bg-brown--confra {
+  padding-bottom: 40px;
+}
+
+@media screen and (min-width: 700px) {
+  .bg-green {
+    box-shadow: inset 0 40px var(--color-0), inset 0 -40px var(--color-0);
+  }
+
+  .bg-brown--confra {
+    background-image: linear-gradient(
+      to right,
+      var(--color-0) 30%,
+      var(--color-7) 0%
+    );
+    padding-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .bg-green {
+    box-shadow: inset 0 70px var(--color-0), inset 0 -70px var(--color-0);
+  }
+}

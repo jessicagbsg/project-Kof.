@@ -1,0 +1,90 @@
+.font-1 {
+  font: 600 2.625rem/1.1 "Montserrat", sans serif;
+}
+
+.font-2 {
+  font: 500 2rem/1.1 "Montserrat Alternates", sans serif;
+}
+
+.font-3 {
+  font: 500 1.75rem/1.2 "Montserrat Alternates", sans serif;
+}
+
+.font-4 {
+  font: 600 1.125rem/1.3 "Montserrat Alternates", sans serif;
+}
+
+.font-5,
+.font-5-b {
+  font: 400 1rem/1.4 "Montserrat", sans serif;
+  text-transform: uppercase;
+}
+
+.font-5-b {
+  font-weight: 700;
+}
+
+.font-6,
+.font-6-m {
+  font: 400 0.875rem/1.4 "Montserrat", sans serif;
+}
+
+.font-6-m {
+  font-weight: 500;
+}
+
+@media screen and (min-width: 700px) {
+  .font-1 {
+    font-size: 3rem;
+  }
+
+  .font-2 {
+    font-size: 2.625rem;
+  }
+
+  .font-3 {
+    font-size: 2.25rem;
+  }
+
+  .font-4 {
+    font-size: 1.5rem;
+  }
+
+  .font-5,
+  .font-5-b {
+    font-size: 1.25rem;
+  }
+
+  .font-6,
+  .font-6-m {
+    font-size: 1.125rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .font-1 {
+    font-size: 4rem;
+  }
+
+  .font-2 {
+    font-size: 3.25rem;
+  }
+
+  .font-3 {
+    font-size: 3rem;
+  }
+
+  .font-4 {
+    font-size: 2rem;
+  }
+
+  .font-5,
+  .font-5-b {
+    font-size: 1.75rem;
+  }
+
+  .font-6,
+  .font-6-m {
+    font-size: 1.5rem;
+  }
+}
