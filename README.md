@@ -2,10 +2,10 @@
 Personal project of a website for a made-up coffee shop "**Kof.**".
 
 # About the project
-My fist project created to practice my knowledge in HTML and CSS.
+My fist project created to practice my knowledge in ``HTML`` and ``CSS``.
 
-The main purpuse of this study website was to exercise CSS properties such as: box model, flexbox, grid layout, selectors, psedo-elements, pseudo-classes.
-In addition to use an accesible, semantic and responsive HTML.
+The main purpuse of this study website was to exercise ``CSS`` properties such as: ``box model, flexbox, grid layout, selectors, psedo-elements, pseudo-classes.``
+In addition to use an ``accesible and semantic HTML``.
 
 # Project Layout
 
