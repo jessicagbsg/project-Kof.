@@ -1,5 +1,11 @@
+
+
 # Project Kof.
 Personal project of a website for a made-up coffee shop "**Kof.**".
+
+# Project Layout
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/98706386/160480671-dac2e379-8600-4149-a01f-8c58f6a0fb03.gif)
 
 ## About the project
 My fist project created to practice my knowledge in ``HTML`` and ``CSS``.
@@ -12,9 +18,7 @@ To run/open the project, you just have to download the "index.html" file and ope
 
 To edit or make changes, you have to download the whole project folder and edit as you like with your favorite IDE. 
 
-# Project Layout
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/98706386/160480671-dac2e379-8600-4149-a01f-8c58f6a0fb03.gif)
 
 
 
