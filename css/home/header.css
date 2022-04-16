@@ -28,7 +28,7 @@
   justify-self: end;
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
 }
 
 .header__menu-items li {
@@ -85,6 +85,11 @@
     display: flex;
     gap: 30px;
     align-items: center;
+  }
+
+  .header__menu-items--big li:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
   }
 }
 

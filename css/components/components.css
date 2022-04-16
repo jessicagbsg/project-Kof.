@@ -35,8 +35,16 @@
   border-radius: 4px;
 }
 
+.button:hover {
+  background: linear-gradient(#516854, #323d33);
+}
+
 .bg-brown--confra .button {
   background: linear-gradient(#3d250b, #321d06);
+}
+
+.bg-brown--confra .button:hover {
+  background: linear-gradient(#6e5335, #463520);
 }
 
 @media screen and (min-width: 700px) {
@@ -152,7 +160,7 @@
     max-width: 25ch;
   }
 
-  .container.container--parceiros {
+  .container--parceiros {
     margin: 130px auto;
   }
 }
