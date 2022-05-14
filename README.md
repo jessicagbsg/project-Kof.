@@ -4,7 +4,7 @@
 Personal project of a website for a made-up coffee shop "**Kof.**".
 
 # Project Layout
-
+link to the project: https://jessicagbsg.github.io/project-Kof./
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/98706386/160480671-dac2e379-8600-4149-a01f-8c58f6a0fb03.gif)
 
 ## About the project
